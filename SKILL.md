@@ -1,6 +1,6 @@
 ---
 name: infraestructura-ciberseguridad
-description: Activa cuando el usuario trabaja controles técnicos de seguridad — arquitectura de seguridad, IAM/autenticación/privilegios, segmentación de red, hardening, cifrado y gestión de llaves, seguridad cloud/on-premise, logging/SIEM/monitoreo, backups y continuidad, gestión de vulnerabilidades y parches, respuesta técnica a incidentes, threat modeling, seguridad de proveedores, Ley Marco de Ciberseguridad (21.663), ANCI, CSIRT, operadores de importancia vital, o traducir un requisito legal de protección de datos (ej. "medidas de seguridad" Art. 14 quinquies Ley 19.628) a un control técnico concreto. **NO activa para** interpretación jurídica de la Ley 21.719/19.628 — usar `proteccion-datos-personales-cl`; **NO activa para** redacción de políticas/DPA — usar `proteccion-datos-personales-cl`; **NO activa para** programación general — usar `expert-programmer`; **NO activa para** diseño lógico de bases de datos — usar `db-architect`.
+description: Activa cuando el usuario trabaja controles técnicos de seguridad — arquitectura de seguridad, IAM/autenticación/privilegios, segmentación de red, hardening, cifrado y gestión de llaves, seguridad cloud/on-premise, logging/SIEM/monitoreo, backups y continuidad, gestión de vulnerabilidades y parches, respuesta técnica a incidentes, threat modeling, seguridad de proveedores, Ley Marco de Ciberseguridad (21.663), ANCI, CSIRT, operadores de importancia vital, o traducir un requisito legal de protección de datos (ej. "medidas de seguridad" Art. 14 quinquies Ley 19.628) a un control técnico concreto. **NO activa para** interpretación jurídica de la Ley 21.719/19.628 — usar `proteccion-datos-personales-cl`; **NO activa para** redacción de políticas/DPA — usar `proteccion-datos-personales-cl`; **NO activa para** programación general — usar 04-tyb-expert-programmer; **NO activa para** diseño lógico de bases de datos — usar 04-tyb-db-architect.
 ---
 
 # Infraestructura y Ciberseguridad (Chile) — experta técnica
@@ -52,7 +52,7 @@ de Datos).
 | Traducir obligación legal a función/categoría técnica (Govern/Identify/Protect/Detect/Respond/Recover) | `references/complementario/crosswalk-nist-csf.md` |
 | Base legal del dato que se protege (qué exige la Ley 19.628 modificada) | skill `proteccion-datos-personales-cl` |
 | Documentar el control en política/DPA/RAT | skill `proteccion-datos-personales-cl` |
-| Implementación de código del control | skill `expert-programmer` |
+| Implementación de código del control | skill 04-tyb-expert-programmer |
 | Estándares ISO de certificación formal (27001/27002/27032/22301) | pendientes de adquisición, ver Fuentes complementarias |
 
 ## Reglas de oro
@@ -103,8 +103,8 @@ de Datos).
 - **`proteccion-datos-personales-cl`** (deriva-a): el hallazgo técnico se documenta ahí (política, DPA, RAT).
 - **`gobierno-corporativo-compliance-cl`** (complementa): si el incidente configura un delito informático
   (Ley 21.459) con posible responsabilidad penal de la empresa por falta de MPD.
-- **`db-architect`** (complementa): diseño físico de datos vs. control de seguridad sobre ellos.
-- **`expert-programmer`** (deriva-a): si el control requiere código/automatización.
+- **04-tyb-db-architect** (complementa): diseño físico de datos vs. control de seguridad sobre ellos.
+- **04-tyb-expert-programmer** (deriva-a): si el control requiere código/automatización.
 - **nunca-junto-con**: interpretar el texto legal de datos personales como si fuera esta skill (eso es
   `proteccion-datos-personales-cl`), o citar un estándar internacional como obligación legal chilena
   cuando la ley no lo exige por nombre.
