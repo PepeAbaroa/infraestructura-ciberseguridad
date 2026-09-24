@@ -77,8 +77,8 @@ pequeña sin justificar por qué.
 **Razonamiento aplicado — confirma el punto más importante para SLEP**: un organismo de la Administración
 del Estado es servicio esencial **por el solo hecho de serlo**, sin necesidad de una calificación especial
 adicional — a diferencia de las instituciones privadas, que sí requieren un acto de calificación de la
-Agencia. Un SLEP queda sujeto a las obligaciones del Art. 8° (ver abajo) desde la entrada en vigencia de
-la ley, no desde que la Agencia dicte una resolución particular.
+Agencia. Un SLEP queda sujeto a los Arts. 7°, 9° y 47 desde su vigencia; al Art. 8° solo si es calificado
+OIV o si la Agencia identifica una infraestructura suya (Art. 4° inc. final).
 
 ### Artículo 5° — Operadores de Importancia Vital (OIV)
 > **TEXTO LITERAL** (Art. 5°, página 3)
@@ -212,7 +212,7 @@ y la homologación de certificaciones internacionales (ej. ISO 27001) queda suje
 la Agencia, no es automática. Verificar activamente si la Agencia ya dictó esa homologación antes de
 asumir que una certificación ISO 27001 basta por sí sola ante la ANCI.
 
-## Título VII — Infracciones y sanciones (Arts. 37-46)
+## Título VII — Infracciones y sanciones (Arts. 37-47)
 
 ### Artículo 38 — Infracciones generales (leves/graves/gravísimas)
 > **TEXTO LITERAL** (Art. 38, páginas 17-18)
